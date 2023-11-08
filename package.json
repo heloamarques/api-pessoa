@@ -9,6 +9,8 @@
   "author": "Heloa Marques",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.16",
+    "@types/express": "^4.17.21",
     "typescript": "^5.2.2"
   }
 }

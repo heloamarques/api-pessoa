@@ -79,6 +79,18 @@ class Pessoa {
     falarFrase(_frase) {
         console.log(`${this.nome} fala: ${_frase}`);
     }
+    andar() {
+        console.log(`${this.nome} está andando...`);
+    }
+    andarQuilometros(quilometros) {
+        setTimeout(() => (console.log(`${this.nome} caminhou ${quilometros} quilometros`)), 3000);
+    }
+    comer() {
+        console.log(`${this.nome} está comendo...`);
+    }
+    comerPrato(prato) {
+        console.log(`${this.nome} está comendo ${prato}`);
+    }
 }
 exports.Pessoa = Pessoa;
 //# sourceMappingURL=Pessoa.js.map
